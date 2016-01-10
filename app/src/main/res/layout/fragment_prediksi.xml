@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="112dp"
+        android:text="Prediksi 12jam kedepan"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuaca"
+        android:id="@+id/textView2"
+        android:textSize="15sp"
+        android:textIsSelectable="true"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tinggi Gelombang"
+        android:id="@+id/textView3"
+        android:textSize="15sp"
+        android:textIsSelectable="true"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="36dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arah Angin"
+        android:id="@+id/textView4"
+        android:layout_marginTop="36dp"
+        android:textSize="15sp"
+        android:textIsSelectable="true"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kecepatan angin"
+        android:id="@+id/textView5"
+        android:layout_marginTop="36dp"
+        android:textSize="15sp"
+        android:textIsSelectable="true"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuaca"
+        android:id="@+id/txtCuaca"
+        android:textSize="15sp"
+        android:textIsSelectable="true"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:layout_above="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuaca"
+        android:id="@+id/txtTinggi"
+        android:textSize="15sp"
+        android:textIsSelectable="true"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:layout_above="@+id/textView4"
+        android:layout_alignLeft="@+id/txtCuaca"
+        android:layout_alignStart="@+id/txtCuaca" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuaca"
+        android:id="@+id/txtArah"
+        android:textSize="15sp"
+        android:textIsSelectable="true"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:layout_above="@+id/textView5"
+        android:layout_alignLeft="@+id/txtTinggi"
+        android:layout_alignStart="@+id/txtTinggi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="acng"
+        android:id="@+id/txtKec"
+        android:textSize="15sp"
+        android:textIsSelectable="true"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignLeft="@+id/txtArah"
+        android:layout_alignStart="@+id/txtArah" />
+
+    <TextView
+        android:id="@+id/txtWilayah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Info Wilayah"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
